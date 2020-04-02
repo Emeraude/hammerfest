@@ -9,7 +9,7 @@ swfmake -f swfmake.xml
 if errorlevel 1 goto error
 
 echo Done.
-start swf\loader.swf
+start www\index.html
 goto end
 
 :error

@@ -12,4 +12,4 @@ echo "Compiling: swfmake.xml..."
 swfmake -f swfmake.xml || error
 
 echo "Done."
-xdg-open swf/loader.swf
+xdg-open www/index.html
